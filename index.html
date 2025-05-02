@@ -56,9 +56,9 @@ document.getElementById(id).closest('.accordion-collapse').classList.add('show')
 <li class="nav-item card"><a class="nav-link" href="#Incomplete">Incomplete</a></li></ul>
 <div id="reportAndComparison"><h2 style="padding-top: 1rem">Summary report with comparison previous report</h2>
 <h3 style="padding: 0">Summary of the incomplete checks:</h3> 
-<ul><li>color-contrast: on 11 pages</li><li>target-size: on 1 pages</li></ul> <h3 style="padding: 0">Differences with previous version:</h3> <p><strong>Incomplete:</strong> 
-Different lengths (previous: 11, now: 12)</p></div>
-<h2>Found a total of 92 different violations across 11 different URLs</h2>
+<ul><li>color-contrast: on 11 pages</li><li>target-size: on 1 pages</li></ul> <h3 style="padding: 0">Differences with previous version:</h3> <p><strong>Violations:</strong> 
+Different lengths (previous: 34, now: 33)</p></div>
+<h2>Found a total of 90 different violations across 11 different URLs</h2>
 <section id="suggestionIndex">
 <table class="table table-bordered table-striped ">
 <thead>
@@ -79,7 +79,7 @@ Different lengths (previous: 11, now: 12)</p></div>
 <td><a href="#7" class="card-link" onclick="openAccordion('7')">7</a></td>
 <td>Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
 <td>WCAG 1.4.3</td>
-<td>46</td>
+<td>45</td>
 </tr>
 <tr>
 <td><a href="#20" class="card-link" onclick="openAccordion('20')">20</a></td>
@@ -89,12 +89,6 @@ Different lengths (previous: 11, now: 12)</p></div>
 </tr>
 <tr>
 <td><a href="#50" class="card-link" onclick="openAccordion('50')">50</a></td>
-<td>Ensure that lists are structured correctly</td>
-<td>WCAG 1.3.1</td>
-<td>1</td>
-</tr>
-<tr>
-<td><a href="#51" class="card-link" onclick="openAccordion('51')">51</a></td>
 <td>Ensure select element has an accessible name</td>
 <td>WCAG 4.1.2</td>
 <td>3</td>
@@ -490,7 +484,7 @@ button-name violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="29">29. Ensure buttons have discernible text</p></div>
+<div class="violationCardLine"><p class="card-title" id="31">31. Ensure buttons have discernible text</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
 
@@ -542,88 +536,6 @@ button-name violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="30">30. Ensure buttons have discernible text</p></div>
-<div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
-<p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
-
-<div class="violationCardLine"><p class="card-text">Buttons must have discernible text  </p>
-<p class="card-subtitle mb-2 text-muted"><a href="https://dequeuniversity.com/rules/axe/4.10/button-name">Click here for more information</a></p></div>
-</div>
-<section class="violationNode">
-<table class="table table-bordered ">
-<thead>
-<tr>
-<th style="width: 50%">Description</th>
-<th style="width: 50%">Possible solution</th>
-</tr>
-</thead>
-<tbody>
-<td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="926"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="926"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
-                    <p><strong>The violation looks like this in the source code:</strong></p>
-                    <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
-<td><p><p>Fix any of the following:</p>
-<ul class="text-muted"><li>  Element does not have inner text that is visible to screen readers</li>
-<li>  aria-label attribute does not exist or is empty</li>
-<li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
-<li>  Element has no title attribute</li>
-<li>  Element does not have an implicit (wrapped) &lt;label&gt;</li>
-<li>  Element does not have an explicit &lt;label&gt;</li>
-<li>  Element's default semantics were not overridden with role="none" or role="presentation"</li></ul></p></td>
-</tbody>
-</table>
-<section class="pageLinks">
-<ul>
-<h4>This violation is found in the following links:</h4>
-<li><a href="https://test.elektramat.dev/emat-aardlekautomaat-1-polig-nul-16a-b-kar-30ma-85006004/">https://test.elektramat.dev/emat-aardlekautomaat-1-polig-nul-16a-b-kar-30ma-85006004/</a></li>
-</ul>
-</section>
-</section>
-</section>
-<section class="violationCard card">
-<div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="31">31. Ensure buttons have discernible text</p></div>
-<div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
-<p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
-
-<div class="violationCardLine"><p class="card-text">Buttons must have discernible text  </p>
-<p class="card-subtitle mb-2 text-muted"><a href="https://dequeuniversity.com/rules/axe/4.10/button-name">Click here for more information</a></p></div>
-</div>
-<section class="violationNode">
-<table class="table table-bordered ">
-<thead>
-<tr>
-<th style="width: 50%">Description</th>
-<th style="width: 50%">Possible solution</th>
-</tr>
-</thead>
-<tbody>
-<td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="929"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="929"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
-                    <p><strong>The violation looks like this in the source code:</strong></p>
-                    <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
-<td><p><p>Fix any of the following:</p>
-<ul class="text-muted"><li>  Element does not have inner text that is visible to screen readers</li>
-<li>  aria-label attribute does not exist or is empty</li>
-<li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
-<li>  Element has no title attribute</li>
-<li>  Element does not have an implicit (wrapped) &lt;label&gt;</li>
-<li>  Element does not have an explicit &lt;label&gt;</li>
-<li>  Element's default semantics were not overridden with role="none" or role="presentation"</li></ul></p></td>
-</tbody>
-</table>
-<section class="pageLinks">
-<ul>
-<h4>This violation is found in the following links:</h4>
-<li><a href="https://test.elektramat.dev/emat-aardlekautomaat-1-polig-nul-16a-b-kar-30ma-85006004/">https://test.elektramat.dev/emat-aardlekautomaat-1-polig-nul-16a-b-kar-30ma-85006004/</a></li>
-</ul>
-</section>
-</section>
-</section>
-<section class="violationCard card">
-<div class="card-body">
 <div class="violationCardLine"><p class="card-title" id="32">32. Ensure buttons have discernible text</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
@@ -641,8 +553,8 @@ button-name violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="931"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="931"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="912"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="912"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -682,8 +594,8 @@ button-name violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="933"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="933"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="916"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="916"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -707,6 +619,88 @@ button-name violations</button></h2>
 <section class="violationCard card">
 <div class="card-body">
 <div class="violationCardLine"><p class="card-title" id="34">34. Ensure buttons have discernible text</p></div>
+<div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
+<p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
+
+<div class="violationCardLine"><p class="card-text">Buttons must have discernible text  </p>
+<p class="card-subtitle mb-2 text-muted"><a href="https://dequeuniversity.com/rules/axe/4.10/button-name">Click here for more information</a></p></div>
+</div>
+<section class="violationNode">
+<table class="table table-bordered ">
+<thead>
+<tr>
+<th style="width: 50%">Description</th>
+<th style="width: 50%">Possible solution</th>
+</tr>
+</thead>
+<tbody>
+<td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="918"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="918"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
+                    <p><strong>The violation looks like this in the source code:</strong></p>
+                    <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
+<td><p><p>Fix any of the following:</p>
+<ul class="text-muted"><li>  Element does not have inner text that is visible to screen readers</li>
+<li>  aria-label attribute does not exist or is empty</li>
+<li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
+<li>  Element has no title attribute</li>
+<li>  Element does not have an implicit (wrapped) &lt;label&gt;</li>
+<li>  Element does not have an explicit &lt;label&gt;</li>
+<li>  Element's default semantics were not overridden with role="none" or role="presentation"</li></ul></p></td>
+</tbody>
+</table>
+<section class="pageLinks">
+<ul>
+<h4>This violation is found in the following links:</h4>
+<li><a href="https://test.elektramat.dev/emat-aardlekautomaat-1-polig-nul-16a-b-kar-30ma-85006004/">https://test.elektramat.dev/emat-aardlekautomaat-1-polig-nul-16a-b-kar-30ma-85006004/</a></li>
+</ul>
+</section>
+</section>
+</section>
+<section class="violationCard card">
+<div class="card-body">
+<div class="violationCardLine"><p class="card-title" id="35">35. Ensure buttons have discernible text</p></div>
+<div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
+<p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
+
+<div class="violationCardLine"><p class="card-text">Buttons must have discernible text  </p>
+<p class="card-subtitle mb-2 text-muted"><a href="https://dequeuniversity.com/rules/axe/4.10/button-name">Click here for more information</a></p></div>
+</div>
+<section class="violationNode">
+<table class="table table-bordered ">
+<thead>
+<tr>
+<th style="width: 50%">Description</th>
+<th style="width: 50%">Possible solution</th>
+</tr>
+</thead>
+<tbody>
+<td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="919"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="919"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
+                    <p><strong>The violation looks like this in the source code:</strong></p>
+                    <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
+<td><p><p>Fix any of the following:</p>
+<ul class="text-muted"><li>  Element does not have inner text that is visible to screen readers</li>
+<li>  aria-label attribute does not exist or is empty</li>
+<li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
+<li>  Element has no title attribute</li>
+<li>  Element does not have an implicit (wrapped) &lt;label&gt;</li>
+<li>  Element does not have an explicit &lt;label&gt;</li>
+<li>  Element's default semantics were not overridden with role="none" or role="presentation"</li></ul></p></td>
+</tbody>
+</table>
+<section class="pageLinks">
+<ul>
+<h4>This violation is found in the following links:</h4>
+<li><a href="https://test.elektramat.dev/emat-aardlekautomaat-1-polig-nul-16a-b-kar-30ma-85006004/">https://test.elektramat.dev/emat-aardlekautomaat-1-polig-nul-16a-b-kar-30ma-85006004/</a></li>
+</ul>
+</section>
+</section>
+</section>
+<section class="violationCard card">
+<div class="card-body">
+<div class="violationCardLine"><p class="card-title" id="36">36. Ensure buttons have discernible text</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
 
@@ -748,7 +742,7 @@ button-name violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="35">35. Ensure buttons have discernible text</p></div>
+<div class="violationCardLine"><p class="card-title" id="37">37. Ensure buttons have discernible text</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
 
@@ -790,7 +784,7 @@ button-name violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="36">36. Ensure buttons have discernible text</p></div>
+<div class="violationCardLine"><p class="card-title" id="38">38. Ensure buttons have discernible text</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
 
@@ -832,7 +826,7 @@ button-name violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="37">37. Ensure buttons have discernible text</p></div>
+<div class="violationCardLine"><p class="card-title" id="39">39. Ensure buttons have discernible text</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
 
@@ -943,7 +937,7 @@ button-name violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="54">54. Ensure buttons have discernible text</p></div>
+<div class="violationCardLine"><p class="card-title" id="53">53. Ensure buttons have discernible text</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
 
@@ -984,6 +978,47 @@ button-name violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
+<div class="violationCardLine"><p class="card-title" id="54">54. Ensure buttons have discernible text</p></div>
+<div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
+<p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
+
+<div class="violationCardLine"><p class="card-text">Buttons must have discernible text  </p>
+<p class="card-subtitle mb-2 text-muted"><a href="https://dequeuniversity.com/rules/axe/4.10/button-name">Click here for more information</a></p></div>
+</div>
+<section class="violationNode">
+<table class="table table-bordered ">
+<thead>
+<tr>
+<th style="width: 50%">Description</th>
+<th style="width: 50%">Possible solution</th>
+</tr>
+</thead>
+<tbody>
+<td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="835"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="835"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
+                    <p><strong>The violation looks like this in the source code:</strong></p>
+                    <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
+<td><p><p>Fix any of the following:</p>
+<ul class="text-muted"><li>  Element does not have inner text that is visible to screen readers</li>
+<li>  aria-label attribute does not exist or is empty</li>
+<li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
+<li>  Element has no title attribute</li>
+<li>  Element does not have an implicit (wrapped) &lt;label&gt;</li>
+<li>  Element does not have an explicit &lt;label&gt;</li>
+<li>  Element's default semantics were not overridden with role="none" or role="presentation"</li></ul></p></td>
+</tbody>
+</table>
+<section class="pageLinks">
+<ul>
+<h4>This violation is found in the following links:</h4>
+<li><a href="https://test.elektramat.dev/gira-stopcontact-met-randaarde-1-voudig-systeem-55-zuiver-wit-mat-446627/">https://test.elektramat.dev/gira-stopcontact-met-randaarde-1-voudig-systeem-55-zuiver-wit-mat-446627/</a></li>
+</ul>
+</section>
+</section>
+</section>
+<section class="violationCard card">
+<div class="card-body">
 <div class="violationCardLine"><p class="card-title" id="55">55. Ensure buttons have discernible text</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
@@ -1001,8 +1036,8 @@ button-name violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="816"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="816"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="838"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="838"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -1025,48 +1060,7 @@ button-name violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="56">56. Ensure buttons have discernible text</p></div>
-<div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
-<p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
-
-<div class="violationCardLine"><p class="card-text">Buttons must have discernible text  </p>
-<p class="card-subtitle mb-2 text-muted"><a href="https://dequeuniversity.com/rules/axe/4.10/button-name">Click here for more information</a></p></div>
-</div>
-<section class="violationNode">
-<table class="table table-bordered ">
-<thead>
-<tr>
-<th style="width: 50%">Description</th>
-<th style="width: 50%">Possible solution</th>
-</tr>
-</thead>
-<tbody>
-<td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="819"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="819"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
-                    <p><strong>The violation looks like this in the source code:</strong></p>
-                    <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
-<td><p><p>Fix any of the following:</p>
-<ul class="text-muted"><li>  Element does not have inner text that is visible to screen readers</li>
-<li>  aria-label attribute does not exist or is empty</li>
-<li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
-<li>  Element has no title attribute</li>
-<li>  Element does not have an implicit (wrapped) &lt;label&gt;</li>
-<li>  Element does not have an explicit &lt;label&gt;</li>
-<li>  Element's default semantics were not overridden with role="none" or role="presentation"</li></ul></p></td>
-</tbody>
-</table>
-<section class="pageLinks">
-<ul>
-<h4>This violation is found in the following links:</h4>
-<li><a href="https://test.elektramat.dev/gira-stopcontact-met-randaarde-1-voudig-systeem-55-zuiver-wit-mat-446627/">https://test.elektramat.dev/gira-stopcontact-met-randaarde-1-voudig-systeem-55-zuiver-wit-mat-446627/</a></li>
-</ul>
-</section>
-</section>
-</section>
-<section class="violationCard card">
-<div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="60">60. Ensure buttons have discernible text</p></div>
+<div class="violationCardLine"><p class="card-title" id="59">59. Ensure buttons have discernible text</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
 
@@ -1107,7 +1101,7 @@ button-name violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="61">61. Ensure buttons have discernible text</p></div>
+<div class="violationCardLine"><p class="card-title" id="60">60. Ensure buttons have discernible text</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
 
@@ -1148,7 +1142,7 @@ button-name violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="62">62. Ensure buttons have discernible text</p></div>
+<div class="violationCardLine"><p class="card-title" id="61">61. Ensure buttons have discernible text</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
 
@@ -1189,7 +1183,7 @@ button-name violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="63">63. Ensure buttons have discernible text</p></div>
+<div class="violationCardLine"><p class="card-title" id="62">62. Ensure buttons have discernible text</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
 
@@ -1230,6 +1224,88 @@ button-name violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
+<div class="violationCardLine"><p class="card-title" id="73">73. Ensure buttons have discernible text</p></div>
+<div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
+<p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
+
+<div class="violationCardLine"><p class="card-text">Buttons must have discernible text  </p>
+<p class="card-subtitle mb-2 text-muted"><a href="https://dequeuniversity.com/rules/axe/4.10/button-name">Click here for more information</a></p></div>
+</div>
+<section class="violationNode">
+<table class="table table-bordered ">
+<thead>
+<tr>
+<th style="width: 50%">Description</th>
+<th style="width: 50%">Possible solution</th>
+</tr>
+</thead>
+<tbody>
+<td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="741"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="741"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
+                    <p><strong>The violation looks like this in the source code:</strong></p>
+                    <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
+<td><p><p>Fix any of the following:</p>
+<ul class="text-muted"><li>  Element does not have inner text that is visible to screen readers</li>
+<li>  aria-label attribute does not exist or is empty</li>
+<li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
+<li>  Element has no title attribute</li>
+<li>  Element does not have an implicit (wrapped) &lt;label&gt;</li>
+<li>  Element does not have an explicit &lt;label&gt;</li>
+<li>  Element's default semantics were not overridden with role="none" or role="presentation"</li></ul></p></td>
+</tbody>
+</table>
+<section class="pageLinks">
+<ul>
+<h4>This violation is found in the following links:</h4>
+<li><a href="https://test.elektramat.dev/obo-bettermann-pg16-wartel-moer/">https://test.elektramat.dev/obo-bettermann-pg16-wartel-moer/</a></li>
+</ul>
+</section>
+</section>
+</section>
+<section class="violationCard card">
+<div class="card-body">
+<div class="violationCardLine"><p class="card-title" id="74">74. Ensure buttons have discernible text</p></div>
+<div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
+<p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
+
+<div class="violationCardLine"><p class="card-text">Buttons must have discernible text  </p>
+<p class="card-subtitle mb-2 text-muted"><a href="https://dequeuniversity.com/rules/axe/4.10/button-name">Click here for more information</a></p></div>
+</div>
+<section class="violationNode">
+<table class="table table-bordered ">
+<thead>
+<tr>
+<th style="width: 50%">Description</th>
+<th style="width: 50%">Possible solution</th>
+</tr>
+</thead>
+<tbody>
+<td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="745"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="745"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
+                    <p><strong>The violation looks like this in the source code:</strong></p>
+                    <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
+<td><p><p>Fix any of the following:</p>
+<ul class="text-muted"><li>  Element does not have inner text that is visible to screen readers</li>
+<li>  aria-label attribute does not exist or is empty</li>
+<li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
+<li>  Element has no title attribute</li>
+<li>  Element does not have an implicit (wrapped) &lt;label&gt;</li>
+<li>  Element does not have an explicit &lt;label&gt;</li>
+<li>  Element's default semantics were not overridden with role="none" or role="presentation"</li></ul></p></td>
+</tbody>
+</table>
+<section class="pageLinks">
+<ul>
+<h4>This violation is found in the following links:</h4>
+<li><a href="https://test.elektramat.dev/obo-bettermann-pg16-wartel-moer/">https://test.elektramat.dev/obo-bettermann-pg16-wartel-moer/</a></li>
+</ul>
+</section>
+</section>
+</section>
+<section class="violationCard card">
+<div class="card-body">
 <div class="violationCardLine"><p class="card-title" id="75">75. Ensure buttons have discernible text</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
@@ -1247,8 +1323,8 @@ button-name violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="762"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="762"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="747"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="747"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -1288,8 +1364,8 @@ button-name violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="767"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="767"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="749"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="749"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -1329,8 +1405,7 @@ button-name violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="768"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="768"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
+                    <pre><code class="lang-css text-wrap">#splide03-slide01 &gt; .product-item.border-black-2.hover\:-translate-y-1 &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -1370,8 +1445,7 @@ button-name violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="770"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="770"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
+                    <pre><code class="lang-css text-wrap">#splide03-slide02 &gt; .product-item.border-black-2.hover\:-translate-y-1 &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -1411,86 +1485,6 @@ button-name violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">#splide03-slide01 &gt; .product-item.border-black-2.hover\:-translate-y-1 &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\</code></pre>
-                    <p><strong>The violation looks like this in the source code:</strong></p>
-                    <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
-<td><p><p>Fix any of the following:</p>
-<ul class="text-muted"><li>  Element does not have inner text that is visible to screen readers</li>
-<li>  aria-label attribute does not exist or is empty</li>
-<li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
-<li>  Element has no title attribute</li>
-<li>  Element does not have an implicit (wrapped) &lt;label&gt;</li>
-<li>  Element does not have an explicit &lt;label&gt;</li>
-<li>  Element's default semantics were not overridden with role="none" or role="presentation"</li></ul></p></td>
-</tbody>
-</table>
-<section class="pageLinks">
-<ul>
-<h4>This violation is found in the following links:</h4>
-<li><a href="https://test.elektramat.dev/obo-bettermann-pg16-wartel-moer/">https://test.elektramat.dev/obo-bettermann-pg16-wartel-moer/</a></li>
-</ul>
-</section>
-</section>
-</section>
-<section class="violationCard card">
-<div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="80">80. Ensure buttons have discernible text</p></div>
-<div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
-<p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
-
-<div class="violationCardLine"><p class="card-text">Buttons must have discernible text  </p>
-<p class="card-subtitle mb-2 text-muted"><a href="https://dequeuniversity.com/rules/axe/4.10/button-name">Click here for more information</a></p></div>
-</div>
-<section class="violationNode">
-<table class="table table-bordered ">
-<thead>
-<tr>
-<th style="width: 50%">Description</th>
-<th style="width: 50%">Possible solution</th>
-</tr>
-</thead>
-<tbody>
-<td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">#splide03-slide02 &gt; .product-item.border-black-2.hover\:-translate-y-1 &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\</code></pre>
-                    <p><strong>The violation looks like this in the source code:</strong></p>
-                    <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
-<td><p><p>Fix any of the following:</p>
-<ul class="text-muted"><li>  Element does not have inner text that is visible to screen readers</li>
-<li>  aria-label attribute does not exist or is empty</li>
-<li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
-<li>  Element has no title attribute</li>
-<li>  Element does not have an implicit (wrapped) &lt;label&gt;</li>
-<li>  Element does not have an explicit &lt;label&gt;</li>
-<li>  Element's default semantics were not overridden with role="none" or role="presentation"</li></ul></p></td>
-</tbody>
-</table>
-<section class="pageLinks">
-<ul>
-<h4>This violation is found in the following links:</h4>
-<li><a href="https://test.elektramat.dev/obo-bettermann-pg16-wartel-moer/">https://test.elektramat.dev/obo-bettermann-pg16-wartel-moer/</a></li>
-</ul>
-</section>
-</section>
-</section>
-<section class="violationCard card">
-<div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="81">81. Ensure buttons have discernible text</p></div>
-<div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
-<p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
-
-<div class="violationCardLine"><p class="card-text">Buttons must have discernible text  </p>
-<p class="card-subtitle mb-2 text-muted"><a href="https://dequeuniversity.com/rules/axe/4.10/button-name">Click here for more information</a></p></div>
-</div>
-<section class="violationNode">
-<table class="table table-bordered ">
-<thead>
-<tr>
-<th style="width: 50%">Description</th>
-<th style="width: 50%">Possible solution</th>
-</tr>
-</thead>
-<tbody>
-<td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
                     <pre><code class="lang-css text-wrap">#splide03-slide03 &gt; .product-item.border-black-2.hover\:-translate-y-1 &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
@@ -1514,6 +1508,88 @@ button-name violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
+<div class="violationCardLine"><p class="card-title" id="83">83. Ensure buttons have discernible text</p></div>
+<div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
+<p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
+
+<div class="violationCardLine"><p class="card-text">Buttons must have discernible text  </p>
+<p class="card-subtitle mb-2 text-muted"><a href="https://dequeuniversity.com/rules/axe/4.10/button-name">Click here for more information</a></p></div>
+</div>
+<section class="violationNode">
+<table class="table table-bordered ">
+<thead>
+<tr>
+<th style="width: 50%">Description</th>
+<th style="width: 50%">Possible solution</th>
+</tr>
+</thead>
+<tbody>
+<td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="755"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="755"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
+                    <p><strong>The violation looks like this in the source code:</strong></p>
+                    <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
+<td><p><p>Fix any of the following:</p>
+<ul class="text-muted"><li>  Element does not have inner text that is visible to screen readers</li>
+<li>  aria-label attribute does not exist or is empty</li>
+<li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
+<li>  Element has no title attribute</li>
+<li>  Element does not have an implicit (wrapped) &lt;label&gt;</li>
+<li>  Element does not have an explicit &lt;label&gt;</li>
+<li>  Element's default semantics were not overridden with role="none" or role="presentation"</li></ul></p></td>
+</tbody>
+</table>
+<section class="pageLinks">
+<ul>
+<h4>This violation is found in the following links:</h4>
+<li><a href="https://test.elektramat.dev/ymvk-kabel-3x2-5-per-rol-100-meter/">https://test.elektramat.dev/ymvk-kabel-3x2-5-per-rol-100-meter/</a></li>
+</ul>
+</section>
+</section>
+</section>
+<section class="violationCard card">
+<div class="card-body">
+<div class="violationCardLine"><p class="card-title" id="84">84. Ensure buttons have discernible text</p></div>
+<div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
+<p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
+
+<div class="violationCardLine"><p class="card-text">Buttons must have discernible text  </p>
+<p class="card-subtitle mb-2 text-muted"><a href="https://dequeuniversity.com/rules/axe/4.10/button-name">Click here for more information</a></p></div>
+</div>
+<section class="violationNode">
+<table class="table table-bordered ">
+<thead>
+<tr>
+<th style="width: 50%">Description</th>
+<th style="width: 50%">Possible solution</th>
+</tr>
+</thead>
+<tbody>
+<td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="758"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="758"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
+                    <p><strong>The violation looks like this in the source code:</strong></p>
+                    <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
+<td><p><p>Fix any of the following:</p>
+<ul class="text-muted"><li>  Element does not have inner text that is visible to screen readers</li>
+<li>  aria-label attribute does not exist or is empty</li>
+<li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
+<li>  Element has no title attribute</li>
+<li>  Element does not have an implicit (wrapped) &lt;label&gt;</li>
+<li>  Element does not have an explicit &lt;label&gt;</li>
+<li>  Element's default semantics were not overridden with role="none" or role="presentation"</li></ul></p></td>
+</tbody>
+</table>
+<section class="pageLinks">
+<ul>
+<h4>This violation is found in the following links:</h4>
+<li><a href="https://test.elektramat.dev/ymvk-kabel-3x2-5-per-rol-100-meter/">https://test.elektramat.dev/ymvk-kabel-3x2-5-per-rol-100-meter/</a></li>
+</ul>
+</section>
+</section>
+</section>
+<section class="violationCard card">
+<div class="card-body">
 <div class="violationCardLine"><p class="card-title" id="85">85. Ensure buttons have discernible text</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
@@ -1531,8 +1607,8 @@ button-name violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="866"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="866"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="760"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="760"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -1572,90 +1648,8 @@ button-name violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="869"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="869"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
-                    <p><strong>The violation looks like this in the source code:</strong></p>
-                    <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
-<td><p><p>Fix any of the following:</p>
-<ul class="text-muted"><li>  Element does not have inner text that is visible to screen readers</li>
-<li>  aria-label attribute does not exist or is empty</li>
-<li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
-<li>  Element has no title attribute</li>
-<li>  Element does not have an implicit (wrapped) &lt;label&gt;</li>
-<li>  Element does not have an explicit &lt;label&gt;</li>
-<li>  Element's default semantics were not overridden with role="none" or role="presentation"</li></ul></p></td>
-</tbody>
-</table>
-<section class="pageLinks">
-<ul>
-<h4>This violation is found in the following links:</h4>
-<li><a href="https://test.elektramat.dev/ymvk-kabel-3x2-5-per-rol-100-meter/">https://test.elektramat.dev/ymvk-kabel-3x2-5-per-rol-100-meter/</a></li>
-</ul>
-</section>
-</section>
-</section>
-<section class="violationCard card">
-<div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="87">87. Ensure buttons have discernible text</p></div>
-<div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
-<p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
-
-<div class="violationCardLine"><p class="card-text">Buttons must have discernible text  </p>
-<p class="card-subtitle mb-2 text-muted"><a href="https://dequeuniversity.com/rules/axe/4.10/button-name">Click here for more information</a></p></div>
-</div>
-<section class="violationNode">
-<table class="table table-bordered ">
-<thead>
-<tr>
-<th style="width: 50%">Description</th>
-<th style="width: 50%">Possible solution</th>
-</tr>
-</thead>
-<tbody>
-<td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="871"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="871"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
-                    <p><strong>The violation looks like this in the source code:</strong></p>
-                    <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
-<td><p><p>Fix any of the following:</p>
-<ul class="text-muted"><li>  Element does not have inner text that is visible to screen readers</li>
-<li>  aria-label attribute does not exist or is empty</li>
-<li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
-<li>  Element has no title attribute</li>
-<li>  Element does not have an implicit (wrapped) &lt;label&gt;</li>
-<li>  Element does not have an explicit &lt;label&gt;</li>
-<li>  Element's default semantics were not overridden with role="none" or role="presentation"</li></ul></p></td>
-</tbody>
-</table>
-<section class="pageLinks">
-<ul>
-<h4>This violation is found in the following links:</h4>
-<li><a href="https://test.elektramat.dev/ymvk-kabel-3x2-5-per-rol-100-meter/">https://test.elektramat.dev/ymvk-kabel-3x2-5-per-rol-100-meter/</a></li>
-</ul>
-</section>
-</section>
-</section>
-<section class="violationCard card">
-<div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="88">88. Ensure buttons have discernible text</p></div>
-<div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">button-name</p>
-<p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
-
-<div class="violationCardLine"><p class="card-text">Buttons must have discernible text  </p>
-<p class="card-subtitle mb-2 text-muted"><a href="https://dequeuniversity.com/rules/axe/4.10/button-name">Click here for more information</a></p></div>
-</div>
-<section class="violationNode">
-<table class="table table-bordered ">
-<thead>
-<tr>
-<th style="width: 50%">Description</th>
-<th style="width: 50%">Possible solution</th>
-</tr>
-</thead>
-<tbody>
-<td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="872"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="872"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="761"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-minus.btn-secondary.btn</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="761"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; .btn-plus.btn-secondary.btn</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;button class="btn btn-secondary btn-minus" disabled="disabled"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -1686,15 +1680,14 @@ color-contrast violations</button></h2>
 <ul class="text-muted"><li>  Element has insufficient color contrast of 2.03 (foreground color: #70cc0a, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1 (times: 1)</li></ul>
 <ul class="text-muted"><li>  Element has insufficient color contrast of 2.11 (foreground color: #34bbda, background color: #f3f8fb, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1 (times: 1)</li>
 <li>  Element has insufficient color contrast of 2.26 (foreground color: #34bbda, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1 (times: 1)</li></ul>
-<ul class="text-muted"><li>  Element has insufficient color contrast of 2.03 (foreground color: #ffffff, background color: #70cc0a, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1 (times: 7)</li></ul>
-<ul class="text-muted"><li>  Element has insufficient color contrast of 2.26 (foreground color: #34bbda, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1 (times: 13)</li></ul>
-<ul class="text-muted"><li>  Element has insufficient color contrast of 2.26 (foreground color: #34bbda, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1 (times: 1)</li>
-<li>  Element has insufficient color contrast of 2.26 (foreground color: #34bbda, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1 (times: 1)</li></ul>
+<ul class="text-muted"><li>  Element has insufficient color contrast of 2.03 (foreground color: #ffffff, background color: #70cc0a, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1 (times: 6)</li></ul>
+<ul class="text-muted"><li>  Element has insufficient color contrast of 2.26 (foreground color: #34bbda, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1 (times: 14)</li></ul>
 <ul class="text-muted"><li>  Element has insufficient color contrast of 2.08 (foreground color: #34bbda, background color: #eaf8fb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1 (times: 2)</li></ul>
 <ul class="text-muted"><li>  Element has insufficient color contrast of 2.08 (foreground color: #34bbda, background color: #eaf8fb, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1 (times: 1)</li></ul>
-<ul class="text-muted"><li>  Element has insufficient color contrast of 2.62 (foreground color: #bfdbf6, background color: #2a86e1, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1 (times: 1)</li>
+<ul class="text-muted"><li>  Element has insufficient color contrast of 2.31 (foreground color: #aacff3, background color: #2a86e1, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1 (times: 1)</li>
 <li>  Element has insufficient color contrast of 3.75 (foreground color: #ffffff, background color: #2a86e1, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1 (times: 1)</li>
-<li>  Element has insufficient color contrast of 3.34 (foreground color: #eaf3fc, background color: #2a86e1, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1 (times: 1)</li></ul>
+<li>  Element has insufficient color contrast of 3.34 (foreground color: #eaf3fc, background color: #2a86e1, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1 (times: 1)</li>
+<li>  Element has insufficient color contrast of 2.62 (foreground color: #bfdbf6, background color: #2a86e1, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1 (times: 1)</li></ul>
 <ul class="text-muted"><li>  Element has insufficient color contrast of 2.26 (foreground color: #34bbda, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1 (times: 1)</li></ul>
 <ul class="text-muted"><li>  Element has insufficient color contrast of 1.83 (foreground color: #bfbfbf, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1 (times: 6)</li></ul>
 <ul class="text-muted"><li>  Element has insufficient color contrast of 2.26 (foreground color: #34bbda, background color: #ffffff, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1 (times: 1)</li>
@@ -2046,15 +2039,13 @@ color-contrast violations</button></h2>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;a href="/customer/account/create"&gt;maak een account aan&lt;/a&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
-<ul class="text-muted"><li>  Element has insufficient color contrast of 2.26 (foreground color: #34bbda, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1</li>
-<li>  Element has insufficient color contrast of 2.26 (foreground color: #34bbda, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1</li></ul></p></td>
+<ul class="text-muted"><li>  Element has insufficient color contrast of 2.26 (foreground color: #34bbda, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1</li></ul></p></td>
 </tbody>
 </table>
 <section class="pageLinks">
 <ul>
-<h4>This violation is found in the following links:</h4>
+<h4>This violation is found in the following link:</h4>
 <li><a href="https://test.elektramat.dev/aansluitset-groepenkast-haf/">https://test.elektramat.dev/aansluitset-groepenkast-haf/</a></li>
-<li><a href="https://test.elektramat.dev/gereedschap/cimco/">https://test.elektramat.dev/gereedschap/cimco/</a></li>
 </ul>
 </section>
 </section>
@@ -2197,11 +2188,12 @@ color-contrast violations</button></h2>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
                     <pre><code class="lang-css text-wrap">#robin_tab_div</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
-                    <pre><code class="lang-html text-wrap">&lt;div id="robin_tab_div" style="display: block; font-family: Nunito, Helvetica, arial, sans-serif; font-size: 14px; font-weight: bold; letter-spacing: 1px; line-height: 1.6; height: 22px; text-align: center; text-transform: uppercase; text-decoration: none; top: 0px; vertical-align: middle; width: auto; float: left; z-index: 99999993; box-sizing: content-box; user-select: none; color: rgb(255, 255, 255); padding-left: 25px; margin-right: 25px; opacity: 0.7; transform: translate3d(0px, 0px, 0px) !important;"&gt;</code></pre></td>
+                    <pre><code class="lang-html text-wrap">&lt;div id="robin_tab_div" style="display: block; font-family: Nunito, Helvetica, arial, sans-serif; font-size: 14px; font-weight: bold; letter-spacing: 1px; line-height: 1.6; height: 22px; text-align: center; text-transform: uppercase; text-decoration: none; top: 0px; vertical-align: middle; width: auto; float: left; z-index: 99999993; box-sizing: content-box; user-select: none; color: rgb(255, 255, 255); padding-left: 25px; margin-right: 25px; opacity: 0.6; transform: translate3d(0px, 0px, 0px) !important;"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
-<ul class="text-muted"><li>  Element has insufficient color contrast of 2.62 (foreground color: #bfdbf6, background color: #2a86e1, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1</li>
+<ul class="text-muted"><li>  Element has insufficient color contrast of 2.31 (foreground color: #aacff3, background color: #2a86e1, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1</li>
 <li>  Element has insufficient color contrast of 3.75 (foreground color: #ffffff, background color: #2a86e1, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1</li>
-<li>  Element has insufficient color contrast of 3.34 (foreground color: #eaf3fc, background color: #2a86e1, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1</li></ul></p></td>
+<li>  Element has insufficient color contrast of 3.34 (foreground color: #eaf3fc, background color: #2a86e1, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1</li>
+<li>  Element has insufficient color contrast of 2.62 (foreground color: #bfdbf6, background color: #2a86e1, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1</li></ul></p></td>
 </tbody>
 </table>
 <section class="pageLinks">
@@ -2236,44 +2228,6 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div &gt; a[href$="create"]</code></pre>
-                    <p><strong>The violation looks like this in the source code:</strong></p>
-                    <pre><code class="lang-html text-wrap">&lt;a href="/customer/account/create"&gt;maak een account aan&lt;/a&gt;</code></pre></td>
-<td><p><p>Fix any of the following:</p>
-<ul class="text-muted"><li>  Element has insufficient color contrast of 2.26 (foreground color: #34bbda, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1</li></ul></p></td>
-</tbody>
-</table>
-<section class="pageLinks">
-<ul>
-<h4>This violation is found in the following links:</h4>
-<li><a href="https://test.elektramat.dev/all-in-one-compleet-thuisbatterij-systeem-10-kwh-met-omvormer-6kw-en-basismodule-hyx-h6k-hta/">https://test.elektramat.dev/all-in-one-compleet-thuisbatterij-systeem-10-kwh-met-omvormer-6kw-en-basismodule-hyx-h6k-hta/</a></li>
-<li><a href="https://test.elektramat.dev/emat-aardlekautomaat-1-polig-nul-16a-b-kar-30ma-85006004/">https://test.elektramat.dev/emat-aardlekautomaat-1-polig-nul-16a-b-kar-30ma-85006004/</a></li>
-<li><a href="https://test.elektramat.dev/gira-stopcontact-met-randaarde-1-voudig-systeem-55-zuiver-wit-mat-446627/">https://test.elektramat.dev/gira-stopcontact-met-randaarde-1-voudig-systeem-55-zuiver-wit-mat-446627/</a></li>
-<li><a href="https://test.elektramat.dev/obo-bettermann-pg16-wartel-moer/">https://test.elektramat.dev/obo-bettermann-pg16-wartel-moer/</a></li>
-<li><a href="https://test.elektramat.dev/ymvk-kabel-3x2-5-per-rol-100-meter/">https://test.elektramat.dev/ymvk-kabel-3x2-5-per-rol-100-meter/</a></li>
-</ul>
-</section>
-</section>
-</section>
-<section class="violationCard card">
-<div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="38">38. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
-<div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
-<p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
-
-<div class="violationCardLine"><p class="card-text">Elements must meet minimum color contrast ratio thresholds  </p>
-<p class="card-subtitle mb-2 text-muted"><a href="https://dequeuniversity.com/rules/axe/4.10/color-contrast">Click here for more information</a></p></div>
-</div>
-<section class="violationNode">
-<table class="table table-bordered ">
-<thead>
-<tr>
-<th style="width: 50%">Description</th>
-<th style="width: 50%">Possible solution</th>
-</tr>
-</thead>
-<tbody>
-<td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
                     <pre><code class="lang-css text-wrap">.btn-cta</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;a href="/customer/account/login" class="btn btn-cta text-center block mb-2"&gt;Inloggen&lt;/a&gt;</code></pre></td>
@@ -2284,16 +2238,16 @@ color-contrast violations</button></h2>
 <section class="pageLinks">
 <ul>
 <h4>This violation is found in the following links:</h4>
+<li><a href="https://test.elektramat.dev/all-in-one-compleet-thuisbatterij-systeem-10-kwh-met-omvormer-6kw-en-basismodule-hyx-h6k-hta/">https://test.elektramat.dev/all-in-one-compleet-thuisbatterij-systeem-10-kwh-met-omvormer-6kw-en-basismodule-hyx-h6k-hta/</a></li>
 <li><a href="https://test.elektramat.dev/emat-aardlekautomaat-1-polig-nul-16a-b-kar-30ma-85006004/">https://test.elektramat.dev/emat-aardlekautomaat-1-polig-nul-16a-b-kar-30ma-85006004/</a></li>
-<li><a href="https://test.elektramat.dev/gereedschap/cimco/">https://test.elektramat.dev/gereedschap/cimco/</a></li>
-<li><a href="https://test.elektramat.dev/ymvk-kabel-3x2-5-per-rol-100-meter/">https://test.elektramat.dev/ymvk-kabel-3x2-5-per-rol-100-meter/</a></li>
+<li><a href="https://test.elektramat.dev/klantenservice/">https://test.elektramat.dev/klantenservice/</a></li>
 </ul>
 </section>
 </section>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="39">39. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="28">28. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -2320,7 +2274,45 @@ color-contrast violations</button></h2>
 <section class="pageLinks">
 <ul>
 <h4>This violation is found in the following links:</h4>
+<li><a href="https://test.elektramat.dev/all-in-one-compleet-thuisbatterij-systeem-10-kwh-met-omvormer-6kw-en-basismodule-hyx-h6k-hta/">https://test.elektramat.dev/all-in-one-compleet-thuisbatterij-systeem-10-kwh-met-omvormer-6kw-en-basismodule-hyx-h6k-hta/</a></li>
 <li><a href="https://test.elektramat.dev/emat-aardlekautomaat-1-polig-nul-16a-b-kar-30ma-85006004/">https://test.elektramat.dev/emat-aardlekautomaat-1-polig-nul-16a-b-kar-30ma-85006004/</a></li>
+</ul>
+</section>
+</section>
+</section>
+<section class="violationCard card">
+<div class="card-body">
+<div class="violationCardLine"><p class="card-title" id="29">29. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
+<p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
+
+<div class="violationCardLine"><p class="card-text">Elements must meet minimum color contrast ratio thresholds  </p>
+<p class="card-subtitle mb-2 text-muted"><a href="https://dequeuniversity.com/rules/axe/4.10/color-contrast">Click here for more information</a></p></div>
+</div>
+<section class="violationNode">
+<table class="table table-bordered ">
+<thead>
+<tr>
+<th style="width: 50%">Description</th>
+<th style="width: 50%">Possible solution</th>
+</tr>
+</thead>
+<tbody>
+<td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
+                    <pre><code class="lang-css text-wrap">div &gt; a[href$="create"]</code></pre>
+                    <p><strong>The violation looks like this in the source code:</strong></p>
+                    <pre><code class="lang-html text-wrap">&lt;a href="/customer/account/create"&gt;maak een account aan&lt;/a&gt;</code></pre></td>
+<td><p><p>Fix any of the following:</p>
+<ul class="text-muted"><li>  Element has insufficient color contrast of 2.26 (foreground color: #34bbda, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1</li></ul></p></td>
+</tbody>
+</table>
+<section class="pageLinks">
+<ul>
+<h4>This violation is found in the following links:</h4>
+<li><a href="https://test.elektramat.dev/all-in-one-compleet-thuisbatterij-systeem-10-kwh-met-omvormer-6kw-en-basismodule-hyx-h6k-hta/">https://test.elektramat.dev/all-in-one-compleet-thuisbatterij-systeem-10-kwh-met-omvormer-6kw-en-basismodule-hyx-h6k-hta/</a></li>
+<li><a href="https://test.elektramat.dev/emat-aardlekautomaat-1-polig-nul-16a-b-kar-30ma-85006004/">https://test.elektramat.dev/emat-aardlekautomaat-1-polig-nul-16a-b-kar-30ma-85006004/</a></li>
+<li><a href="https://test.elektramat.dev/gira-stopcontact-met-randaarde-1-voudig-systeem-55-zuiver-wit-mat-446627/">https://test.elektramat.dev/gira-stopcontact-met-randaarde-1-voudig-systeem-55-zuiver-wit-mat-446627/</a></li>
+<li><a href="https://test.elektramat.dev/obo-bettermann-pg16-wartel-moer/">https://test.elektramat.dev/obo-bettermann-pg16-wartel-moer/</a></li>
 <li><a href="https://test.elektramat.dev/ymvk-kabel-3x2-5-per-rol-100-meter/">https://test.elektramat.dev/ymvk-kabel-3x2-5-per-rol-100-meter/</a></li>
 </ul>
 </section>
@@ -2417,7 +2409,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">#combination-products-681462be231885\.32963216 &gt; .add-to-cart.btn-primary[type="submit"]</code></pre>
+                    <pre><code class="lang-css text-wrap">#combination-products-681482e963bd28\.84874033 &gt; .add-to-cart.btn-primary[type="submit"]</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;button type="submit" class="btn btn-primary w-full add-to-cart"&gt;Maak compleet&lt;/button&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -2646,7 +2638,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="57">57. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="56">56. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -2663,7 +2655,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">#combination-products-681462bdce91b3\.78161015 &gt; .add-to-cart.btn-primary[type="submit"]</code></pre>
+                    <pre><code class="lang-css text-wrap">#combination-products-681482e83a5640\.60561576 &gt; .add-to-cart.btn-primary[type="submit"]</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;button type="submit" class="btn btn-primary w-full add-to-cart"&gt;Maak compleet&lt;/button&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -2680,7 +2672,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="58">58. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="57">57. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -2714,7 +2706,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="59">59. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="58">58. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -2748,7 +2740,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="64">64. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="63">63. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -2782,7 +2774,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="65">65. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="64">64. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -2817,7 +2809,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="66">66. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="65">65. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -2852,7 +2844,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="67">67. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="66">66. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -2886,7 +2878,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="68">68. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="67">67. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -2920,7 +2912,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="69">69. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="68">68. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -2954,7 +2946,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="70">70. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="69">69. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -2988,7 +2980,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="71">71. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="70">70. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -3022,41 +3014,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="72">72. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
-<div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
-<p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
-
-<div class="violationCardLine"><p class="card-text">Elements must meet minimum color contrast ratio thresholds  </p>
-<p class="card-subtitle mb-2 text-muted"><a href="https://dequeuniversity.com/rules/axe/4.10/color-contrast">Click here for more information</a></p></div>
-</div>
-<section class="violationNode">
-<table class="table table-bordered ">
-<thead>
-<tr>
-<th style="width: 50%">Description</th>
-<th style="width: 50%">Possible solution</th>
-</tr>
-</thead>
-<tbody>
-<td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">.w-auto &gt; .btn-cta</code></pre>
-                    <p><strong>The violation looks like this in the source code:</strong></p>
-                    <pre><code class="lang-html text-wrap">&lt;a href="/customer/account/login/" class="btn btn-cta whitespace-nowrap"&gt;Direct inloggen&lt;/a&gt;</code></pre></td>
-<td><p><p>Fix any of the following:</p>
-<ul class="text-muted"><li>  Element has insufficient color contrast of 2.03 (foreground color: #ffffff, background color: #70cc0a, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1</li></ul></p></td>
-</tbody>
-</table>
-<section class="pageLinks">
-<ul>
-<h4>This violation is found in the following link:</h4>
-<li><a href="https://test.elektramat.dev/klantenservice/">https://test.elektramat.dev/klantenservice/</a></li>
-</ul>
-</section>
-</section>
-</section>
-<section class="violationCard card">
-<div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="73">73. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="71">71. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -3090,7 +3048,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="74">74. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="72">72. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -3124,7 +3082,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="82">82. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="80">80. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -3158,7 +3116,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="83">83. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="81">81. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -3192,7 +3150,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="84">84. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="82">82. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -3226,7 +3184,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="89">89. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="87">87. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -3260,7 +3218,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="90">90. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="88">88. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -3277,7 +3235,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">#combination-products-681462bdccbac0\.77681386 &gt; .add-to-cart.btn-primary[type="submit"]</code></pre>
+                    <pre><code class="lang-css text-wrap">#combination-products-681482e88d8ba7\.06752141 &gt; .add-to-cart.btn-primary[type="submit"]</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;button type="submit" class="btn btn-primary w-full add-to-cart"&gt;Maak compleet&lt;/button&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -3294,7 +3252,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="91">91. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="89">89. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -3328,7 +3286,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="92">92. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="90">90. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -3552,7 +3510,7 @@ link-name violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="28">28. Ensure links have discernible text</p></div>
+<div class="violationCardLine"><p class="card-title" id="30">30. Ensure links have discernible text</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">link-name</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 2.4.4</p></div>
 
@@ -3597,44 +3555,6 @@ link-name violations</button></h2>
 </section>
 </section></div></div></div>
 <div class="accordion-item"><h2 class="accordion-header">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-list-violation" aria-expanded="false" aria-controls="collapselist">
-list violations</button></h2>
-<div id="collapse-list-violation" class="accordion-collapse collapse"><div class="accordion-body">
-<div class="summary"><p>The following violation checks came out with the following messages:</p><ul class="text-muted"><li>  List element has direct children that are not allowed: a (times: 1)</li></ul></div><section class="violationCard card">
-<div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="50">50. Ensure that lists are structured correctly</p></div>
-<div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">list</p>
-<p class="card-subtitle mb-2 text-muted">WCAG 1.3.1</p></div>
-
-<div class="violationCardLine"><p class="card-text">&lt;ul&gt; and &lt;ol&gt; must only directly contain &lt;li&gt;, &lt;script&gt; or &lt;template&gt; elements  </p>
-<p class="card-subtitle mb-2 text-muted"><a href="https://dequeuniversity.com/rules/axe/4.10/list">Click here for more information</a></p></div>
-</div>
-<section class="violationNode">
-<table class="table table-bordered ">
-<thead>
-<tr>
-<th style="width: 50%">Description</th>
-<th style="width: 50%">Possible solution</th>
-</tr>
-</thead>
-<tbody>
-<td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">.z-0</code></pre>
-                    <p><strong>The violation looks like this in the source code:</strong></p>
-                    <pre><code class="lang-html text-wrap">&lt;ol class="relative z-0 inline-flex items pages-items"&gt;</code></pre></td>
-<td><p><p>Fix all of the following:</p>
-<ul class="text-muted"><li>  List element has direct children that are not allowed: a</li></ul></p></td>
-</tbody>
-</table>
-<section class="pageLinks">
-<ul>
-<h4>This violation is found in the following link:</h4>
-<li><a href="https://test.elektramat.dev/gereedschap/cimco/">https://test.elektramat.dev/gereedschap/cimco/</a></li>
-</ul>
-</section>
-</section>
-</section></div></div></div>
-<div class="accordion-item"><h2 class="accordion-header">
 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-select-name-violation" aria-expanded="false" aria-controls="collapseselect-name">
 select-name violations</button></h2>
 <div id="collapse-select-name-violation" class="accordion-collapse collapse"><div class="accordion-body">
@@ -3645,7 +3565,7 @@ select-name violations</button></h2>
 <li>  Element has no title attribute (times: 3)</li>
 <li>  Element's default semantics were not overridden with role="none" or role="presentation" (times: 3)</li></ul></div><section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="51">51. Ensure select element has an accessible name</p></div>
+<div class="violationCardLine"><p class="card-title" id="50">50. Ensure select element has an accessible name</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">select-name</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
 
@@ -3685,7 +3605,7 @@ select-name violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="52">52. Ensure select element has an accessible name</p></div>
+<div class="violationCardLine"><p class="card-title" id="51">51. Ensure select element has an accessible name</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">select-name</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
 
@@ -3725,7 +3645,7 @@ select-name violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="53">53. Ensure select element has an accessible name</p></div>
+<div class="violationCardLine"><p class="card-title" id="52">52. Ensure select element has an accessible name</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">select-name</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 4.1.2</p></div>
 
@@ -4180,6 +4100,42 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
+                    <pre><code class="lang-css text-wrap">.ml-8:nth-child(4) &gt; .hover\</code></pre>
+<pre><code class="lang-css text-wrap">.ml-8:nth-child(5) &gt; .hover\</code></pre>
+                    <p><strong>The violation looks like this in the source code:</strong></p>
+                    <pre><code class="lang-html text-wrap">&lt;a href="https://test.elektramat.dev/kennisbank/" class="font-normal text-white font-body text-sm hover:text-white"&gt;Kennisbank&lt;/a&gt;</code></pre></td>
+<td><p><p>Fix any of the following:</p>
+<ul class="text-muted"><li>  Element's background color could not be determined because it is overlapped by another element</li></ul></p></td>
+</tbody>
+</table>
+<section class="pageLinks">
+<ul>
+<h4>This violation is found in the following links:</h4>
+<li><a href="https://test.elektramat.dev/all-in-one-compleet-thuisbatterij-systeem-10-kwh-met-omvormer-6kw-en-basismodule-hyx-h6k-hta/">https://test.elektramat.dev/all-in-one-compleet-thuisbatterij-systeem-10-kwh-met-omvormer-6kw-en-basismodule-hyx-h6k-hta/</a></li>
+<li><a href="https://test.elektramat.dev/emat-aardlekautomaat-1-polig-nul-16a-b-kar-30ma-85006004/">https://test.elektramat.dev/emat-aardlekautomaat-1-polig-nul-16a-b-kar-30ma-85006004/</a></li>
+</ul>
+</section>
+</section>
+</section>
+<section class="violationCard card">
+<div class="card-body">
+<div class="violationCardLine"><p class="card-title" id="12">12. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
+<p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
+
+<div class="violationCardLine"><p class="card-text">Elements must meet minimum color contrast ratio thresholds  </p>
+<p class="card-subtitle mb-2 text-muted"><a href="https://dequeuniversity.com/rules/axe/4.10/color-contrast">Click here for more information</a></p></div>
+</div>
+<section class="violationNode">
+<table class="table table-bordered ">
+<thead>
+<tr>
+<th style="width: 50%">Description</th>
+<th style="width: 50%">Possible solution</th>
+</tr>
+</thead>
+<tbody>
+<td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
                     <pre><code class="lang-css text-wrap">.m-auto &gt; strong</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;strong&gt;+2&lt;/strong&gt;</code></pre></td>
@@ -4198,7 +4154,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="12">12. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="13">13. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -4232,7 +4188,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="13">13. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="14">14. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -4266,7 +4222,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="14">14. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="15">15. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -4301,7 +4257,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="15">15. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="16">16. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -4335,7 +4291,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="16">16. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="17">17. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -4369,7 +4325,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="17">17. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="18">18. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -4405,7 +4361,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="18">18. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="19">19. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -4439,7 +4395,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="19">19. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="20">20. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -4478,7 +4434,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="20">20. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="21">21. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -4517,7 +4473,7 @@ color-contrast violations</button></h2>
 </section>
 <section class="violationCard card">
 <div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="21">21. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
+<div class="violationCardLine"><p class="card-title" id="22">22. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
 <div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
 <p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
 
@@ -4550,43 +4506,6 @@ color-contrast violations</button></h2>
 <ul>
 <h4>This violation is found in the following links:</h4>
 <li><a href="https://test.elektramat.dev/all-in-one-compleet-thuisbatterij-systeem-10-kwh-met-omvormer-6kw-en-basismodule-hyx-h6k-hta/">https://test.elektramat.dev/all-in-one-compleet-thuisbatterij-systeem-10-kwh-met-omvormer-6kw-en-basismodule-hyx-h6k-hta/</a></li>
-</ul>
-</section>
-</section>
-</section>
-<section class="violationCard card">
-<div class="card-body">
-<div class="violationCardLine"><p class="card-title" id="22">22. Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p></div>
-<div class="violationCardLine"><p class="card-subtitle mb-2 text-muted">color-contrast</p>
-<p class="card-subtitle mb-2 text-muted">WCAG 1.4.3</p></div>
-
-<div class="violationCardLine"><p class="card-text">Elements must meet minimum color contrast ratio thresholds  </p>
-<p class="card-subtitle mb-2 text-muted"><a href="https://dequeuniversity.com/rules/axe/4.10/color-contrast">Click here for more information</a></p></div>
-</div>
-<section class="violationNode">
-<table class="table table-bordered ">
-<thead>
-<tr>
-<th style="width: 50%">Description</th>
-<th style="width: 50%">Possible solution</th>
-</tr>
-</thead>
-<tbody>
-<td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">.ml-8:nth-child(4) &gt; .hover\</code></pre>
-<pre><code class="lang-css text-wrap">.ml-8:nth-child(5) &gt; .hover\</code></pre>
-                    <p><strong>The violation looks like this in the source code:</strong></p>
-                    <pre><code class="lang-html text-wrap">&lt;a href="https://test.elektramat.dev/kennisbank/" class="font-normal text-white font-body text-sm hover:text-white"&gt;Kennisbank&lt;/a&gt;</code></pre></td>
-<td><p><p>Fix any of the following:</p>
-<ul class="text-muted"><li>  Element's background color could not be determined because it is overlapped by another element</li></ul></p></td>
-</tbody>
-</table>
-<section class="pageLinks">
-<ul>
-<h4>This violation is found in the following links:</h4>
-<li><a href="https://test.elektramat.dev/emat-aardlekautomaat-1-polig-nul-16a-b-kar-30ma-85006004/">https://test.elektramat.dev/emat-aardlekautomaat-1-polig-nul-16a-b-kar-30ma-85006004/</a></li>
-<li><a href="https://test.elektramat.dev/gereedschap/cimco/">https://test.elektramat.dev/gereedschap/cimco/</a></li>
-<li><a href="https://test.elektramat.dev/ymvk-kabel-3x2-5-per-rol-100-meter/">https://test.elektramat.dev/ymvk-kabel-3x2-5-per-rol-100-meter/</a></li>
 </ul>
 </section>
 </section>
@@ -4678,10 +4597,10 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="926"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="926"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="926"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="926"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="912"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="912"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="912"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="912"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;div class="product-item-title text-primary text-sm leading-none font-branded font-bold pt-2.5 px-2.5 block" href="https://test.elektramat.dev/emat-aardlekautomaat-1-polig-nul-20a-b-kar-300ma-85006018/"&gt;EMAT aardlekautomaat 1-polig+nul 20A B-kar 300mA (85006018)&lt;/div&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -4785,7 +4704,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="926"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[max="9999"][min="1"][maxlength="12"]</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="912"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[max="9999"][min="1"][maxlength="12"]</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;input type="number" name="qty" maxlength="12" value="1" min="1" max="9999" title="Aantal" x-data="qtyInput"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -4819,11 +4738,11 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="929"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="929"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="929"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="929"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="929"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="916"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="916"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="916"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="916"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="916"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;div class="product-item-title text-primary text-sm leading-none font-branded font-bold pt-2.5 px-2.5 block" href="https://test.elektramat.dev/hager-miniverdeler-1-rij-6-modules-146x180-mm-gd106e/"&gt;Hager miniverdeler 1-rij 6 modules 146x180 mm (GD106E)&lt;/div&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -4925,7 +4844,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="929"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[max="9999"][min="1"][maxlength="12"]</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="916"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[max="9999"][min="1"][maxlength="12"]</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;input type="number" name="qty" maxlength="12" value="1" min="1" max="9999" title="Aantal" x-data="qtyInput"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -4959,11 +4878,11 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="931"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="931"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="931"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="931"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="931"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="918"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="918"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="918"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="918"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="918"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;div class="product-item-title text-primary text-sm leading-none font-branded font-bold pt-2.5 px-2.5 block" href="https://test.elektramat.dev/eaton-mini-installatiekast-leeg-1-rij-2-modules-ip30-53x140x83-mm/"&gt;Eaton mini installatiekast leeg 1-rij 2 modules IP30 53x140x83 mm&lt;/div&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -5065,7 +4984,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="931"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[max="9999"][min="1"][maxlength="12"]</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="918"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[max="9999"][min="1"][maxlength="12"]</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;input type="number" name="qty" maxlength="12" value="1" min="1" max="9999" title="Aantal" x-data="qtyInput"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -5099,12 +5018,12 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="933"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="933"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="933"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="933"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="933"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="933"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-footer.bg-black-5.h-16 &gt; .flex[x-data="initPriceBox__681462bd747bc()"][\@update-prices-616397\.window="updatePrice($event.detail);"] &gt; div[data-product-id="616397"][data-price-box="product-id-616397"][data-role="priceBox"] &gt; .tax.weee.rewards_earn &gt; span[data-price-amount="124.25"][data-label="Excl. BTW"][data-price-type="basePrice"] &gt; .price</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="919"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="919"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="919"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="919"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="919"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="919"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-footer.bg-black-5.h-16 &gt; .flex[x-data="initPriceBox__681482e7bc3ec()"][\@update-prices-616397\.window="updatePrice($event.detail);"] &gt; div[data-product-id="616397"][data-price-box="product-id-616397"][data-role="priceBox"] &gt; .tax.weee.rewards_earn &gt; span[data-price-amount="124.25"][data-label="Excl. BTW"][data-price-type="basePrice"] &gt; .price</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;div class="product-item-title text-primary text-sm leading-none font-branded font-bold pt-2.5 px-2.5 block" href="https://test.elektramat.dev/ymvk-kabel-3x2-5-per-rol-100-meter/"&gt;YMvK kabel 3x2.5 per rol 100 meter&lt;/div&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -5138,7 +5057,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="933"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[max="9999"][min="1"][maxlength="12"]</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="919"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[max="9999"][min="1"][maxlength="12"]</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;input type="number" name="qty" maxlength="12" value="1" min="1" max="9999" title="Aantal" x-data="qtyInput"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -5490,7 +5409,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="816"] &gt; .flex-col.h-full.w-full &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="835"] &gt; .flex-col.h-full.w-full &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;div class="product-item-title text-primary text-sm leading-none font-branded font-bold pt-2.5 px-2.5 block" href="https://test.elektramat.dev/gira-e2-afdekraam-2-voudig-zwart-mat-021209/"&gt;Gira E2 afdekraam 2-voudig - zwart mat (021209)&lt;/div&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -5524,7 +5443,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="816"] &gt; .flex-col.h-full.w-full &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="835"] &gt; .flex-col.h-full.w-full &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;span class="text-xs text-primary leading-none"&gt;2 reviews&lt;/span&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -5558,7 +5477,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="816"] &gt; .flex-col.h-full.w-full &gt; .px-2\.5.text-xs.py-1</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="835"] &gt; .flex-col.h-full.w-full &gt; .px-2\.5.text-xs.py-1</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;div class="py-1 px-2.5 text-xs text-black"&gt;Artikelnr: 401173864&lt;/div&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -5592,7 +5511,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="816"] &gt; .flex-col.h-full.w-full &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="835"] &gt; .flex-col.h-full.w-full &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;div class="ml-1"&gt;Levertijd &lt;strong&gt;1 werkdag&lt;/strong&gt;&lt;/div&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -5626,7 +5545,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="816"] &gt; .flex-col.h-full.w-full &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="835"] &gt; .flex-col.h-full.w-full &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;strong&gt;1 werkdag&lt;/strong&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -5728,7 +5647,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="816"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[max="9999"][min="1"][maxlength="12"]</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="835"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[max="9999"][min="1"][maxlength="12"]</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;input type="number" name="qty" maxlength="12" value="1" min="1" max="9999" title="Aantal" x-data="qtyInput"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -5762,7 +5681,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="819"] &gt; .flex-col.h-full.w-full &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="838"] &gt; .flex-col.h-full.w-full &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;div class="product-item-title text-primary text-sm leading-none font-branded font-bold pt-2.5 px-2.5 block" href="https://test.elektramat.dev/gira-stopcontact-met-randaarde-1-voudig-systeem-55-zuiver-wit-glanzend-446603/"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -5796,7 +5715,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="819"] &gt; .flex-col.h-full.w-full &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="838"] &gt; .flex-col.h-full.w-full &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;span class="text-xs text-primary leading-none"&gt;4 reviews&lt;/span&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -5830,7 +5749,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="819"] &gt; .flex-col.h-full.w-full &gt; .px-2\.5.text-xs.py-1</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="838"] &gt; .flex-col.h-full.w-full &gt; .px-2\.5.text-xs.py-1</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;div class="py-1 px-2.5 text-xs text-black"&gt;Artikelnr: 401314028&lt;/div&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -5864,7 +5783,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="819"] &gt; .flex-col.h-full.w-full &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="838"] &gt; .flex-col.h-full.w-full &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;div class="ml-1"&gt;Levertijd &lt;strong&gt;1 werkdag&lt;/strong&gt;&lt;/div&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -5898,7 +5817,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="819"] &gt; .flex-col.h-full.w-full &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="838"] &gt; .flex-col.h-full.w-full &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;strong&gt;1 werkdag&lt;/strong&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -6000,7 +5919,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="819"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[max="9999"][min="1"][maxlength="12"]</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="838"] &gt; .right-2.bottom-2.product_addtocart_form &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[max="9999"][min="1"][maxlength="12"]</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;input type="number" name="qty" maxlength="12" value="1" min="1" max="9999" title="Aantal" x-data="qtyInput"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -7293,12 +7212,12 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="762"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="762"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="762"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="762"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="762"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="762"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-footer.bg-black-5.h-16 &gt; .flex[x-data="initPriceBox__681462bd747bc()"][\@update-prices-616397\.window="updatePrice($event.detail);"] &gt; div[data-product-id="616397"][data-price-box="product-id-616397"][data-role="priceBox"] &gt; .price-container.tax.weee &gt; span[data-price-amount="124.25"][data-price-type="basePrice"][data-label="Excl. BTW"] &gt; .price</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="741"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="741"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="741"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="741"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="741"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="741"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-footer.bg-black-5.h-16 &gt; .flex[x-data="initPriceBox__681482e7bc3ec()"][\@update-prices-616397\.window="updatePrice($event.detail);"] &gt; div[data-product-id="616397"][data-price-box="product-id-616397"][data-role="priceBox"] &gt; .price-container.tax.weee &gt; span[data-price-amount="124.25"][data-price-type="basePrice"][data-label="Excl. BTW"] &gt; .price</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;div class="product-item-title text-primary text-sm leading-none font-branded font-bold pt-2.5 px-2.5 block" href="https://test.elektramat.dev/ymvk-kabel-3x2-5-per-rol-100-meter/"&gt;YMvK kabel 3x2.5 per rol 100 meter&lt;/div&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -7332,7 +7251,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="762"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[maxlength="12"][max="9999"][title="Aantal"]</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="741"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[maxlength="12"][max="9999"][title="Aantal"]</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;input type="number" name="qty" maxlength="12" value="1" min="1" max="9999" title="Aantal" x-data="qtyInput"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -7366,12 +7285,12 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="767"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="767"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="767"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="767"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="767"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="767"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-footer.bg-black-5.h-16 &gt; .flex[x-data="initPriceBox__681462bd78af6()"][\@update-prices-616407\.window="updatePrice($event.detail);"] &gt; div[data-product-id="616407"][data-price-box="product-id-616407"][data-role="priceBox"] &gt; .price-container.tax.weee &gt; span[data-price-amount="2.12"][data-price-type="basePrice"][data-label="Excl. BTW"] &gt; .price</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="745"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="745"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="745"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="745"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="745"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="745"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-footer.bg-black-5.h-16 &gt; .flex[x-data="initPriceBox__681482e854e0b()"][\@update-prices-616407\.window="updatePrice($event.detail);"] &gt; div[data-product-id="616407"][data-price-box="product-id-616407"][data-role="priceBox"] &gt; .price-container.tax.weee &gt; span[data-price-amount="2.12"][data-price-type="basePrice"][data-label="Excl. BTW"] &gt; .price</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;div class="product-item-title text-primary text-sm leading-none font-branded font-bold pt-2.5 px-2.5 block" href="https://test.elektramat.dev/ymvk-kabel-5x2-5-per-meter/"&gt;YMvK kabel 5x2.5 per meter&lt;/div&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -7405,7 +7324,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="767"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[maxlength="12"][max="9999"][title="Aantal"]</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="745"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[maxlength="12"][max="9999"][title="Aantal"]</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;input type="number" name="qty" maxlength="12" value="1" min="1" max="9999" title="Aantal" x-data="qtyInput"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -7439,12 +7358,12 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="768"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="768"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="768"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="768"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="768"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="768"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-footer.bg-black-5.h-16 &gt; .flex[x-data="initPriceBox__681462c569cb8()"][\@update-prices-618969\.window="updatePrice($event.detail);"] &gt; div[data-product-id="618969"][data-price-box="product-id-618969"][data-role="priceBox"] &gt; .price-container.tax.weee &gt; span[data-price-amount="3.02"][data-price-type="basePrice"][data-label="Excl. BTW"] &gt; .price</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="747"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="747"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="747"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="747"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="747"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="747"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-footer.bg-black-5.h-16 &gt; .flex[x-data="initPriceBox__681482f076f54()"][\@update-prices-618969\.window="updatePrice($event.detail);"] &gt; div[data-product-id="618969"][data-price-box="product-id-618969"][data-role="priceBox"] &gt; .price-container.tax.weee &gt; span[data-price-amount="3.02"][data-price-type="basePrice"][data-label="Excl. BTW"] &gt; .price</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;div class="product-item-title text-primary text-sm leading-none font-branded font-bold pt-2.5 px-2.5 block" href="https://test.elektramat.dev/aansluitdraad-6-mm2-geel-groen-per-meter/"&gt;Aansluitdraad 6 mm2 geel/groen per meter&lt;/div&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -7512,7 +7431,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="768"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[maxlength="12"][max="9999"][title="Aantal"]</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="747"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[maxlength="12"][max="9999"][title="Aantal"]</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;input type="number" name="qty" maxlength="12" value="1" min="1" max="9999" title="Aantal" x-data="qtyInput"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -7546,12 +7465,12 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="770"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="770"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="770"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="770"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="770"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="770"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-footer.bg-black-5.h-16 &gt; .flex[x-data="initPriceBox__681462be54da5()"][\@update-prices-1010511\.window="updatePrice($event.detail);"] &gt; div[data-product-id="1010511"][data-price-box="product-id-1010511"][data-role="priceBox"] &gt; .price-container.tax.weee &gt; span[data-price-amount="0.64"][data-price-type="basePrice"][data-label="Excl. BTW"] &gt; .price</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="749"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="749"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="749"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="749"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="749"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="749"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-footer.bg-black-5.h-16 &gt; .flex[x-data="initPriceBox__681482e9aa066()"][\@update-prices-1010511\.window="updatePrice($event.detail);"] &gt; div[data-product-id="1010511"][data-price-box="product-id-1010511"][data-role="priceBox"] &gt; .price-container.tax.weee &gt; span[data-price-amount="0.64"][data-price-type="basePrice"][data-label="Excl. BTW"] &gt; .price</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;div class="product-item-title text-primary text-sm leading-none font-branded font-bold pt-2.5 px-2.5 block" href="https://test.elektramat.dev/emat-doorverbinder-4-voudig-grijs-85220004/"&gt;EMAT doorverbinder 4-voudig grijs (85220024)&lt;/div&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -7619,7 +7538,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="770"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[maxlength="12"][max="9999"][title="Aantal"]</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="749"] &gt; .product_addtocart_form.right-2[method="post"] &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[maxlength="12"][max="9999"][title="Aantal"]</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;input type="number" name="qty" maxlength="12" value="1" min="1" max="9999" title="Aantal" x-data="qtyInput"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -7928,10 +7847,10 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="866"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="866"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="866"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="866"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="755"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="755"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="755"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="755"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;div class="product-item-title text-primary text-sm leading-none font-branded font-bold pt-2.5 px-2.5 block" href="https://test.elektramat.dev/emat-aardlekautomaat-1-polig-nul-20a-b-kar-300ma-85006018/"&gt;EMAT aardlekautomaat 1-polig+nul 20A B-kar 300mA (85006018)&lt;/div&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -7965,7 +7884,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="866"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[max="9999"][min="1"][maxlength="12"]</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="755"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[max="9999"][min="1"][maxlength="12"]</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;input type="number" name="qty" maxlength="12" value="1" min="1" max="9999" title="Aantal" x-data="qtyInput"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -7999,11 +7918,11 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="869"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="869"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="869"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="869"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="869"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="758"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="758"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="758"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="758"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="758"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;div class="product-item-title text-primary text-sm leading-none font-branded font-bold pt-2.5 px-2.5 block" href="https://test.elektramat.dev/eaton-installatieautomaat-1-polig-nul-16a-b-kar-1742416/"&gt;Eaton installatieautomaat 1-polig+nul 16A B-kar (1742416)&lt;/div&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -8105,7 +8024,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="869"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[max="9999"][min="1"][maxlength="12"]</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="758"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[max="9999"][min="1"][maxlength="12"]</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;input type="number" name="qty" maxlength="12" value="1" min="1" max="9999" title="Aantal" x-data="qtyInput"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -8139,11 +8058,11 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="871"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="871"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="871"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="871"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="871"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="760"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="760"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="760"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="760"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="760"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;div class="product-item-title text-primary text-sm leading-none font-branded font-bold pt-2.5 px-2.5 block" href="https://test.elektramat.dev/peha-opbouw-wisselschakelaar-ip54-spatwaterdicht-d-626-wab/"&gt;PEHA opbouw wisselschakelaar IP54 spatwaterdicht (D 626 WAB)&lt;/div&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -8245,7 +8164,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="871"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[max="9999"][min="1"][maxlength="12"]</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="760"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[max="9999"][min="1"][maxlength="12"]</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;input type="number" name="qty" maxlength="12" value="1" min="1" max="9999" title="Aantal" x-data="qtyInput"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -8279,11 +8198,11 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="872"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="872"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="872"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="872"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
-<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="872"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="761"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-title.pt-2\.5.font-bold</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="761"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-rating.items-end.gap-2 &gt; .text-xs.leading-none</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="761"] &gt; .flex-col.h-full.hover\:no-underline &gt; .px-2\.5.text-xs.py-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="761"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1</code></pre>
+<pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="761"] &gt; .flex-col.h-full.hover\:no-underline &gt; .product-item-delivery.px-2.py-0\.5 &gt; .ml-1 &gt; strong</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;div class="product-item-title text-primary text-sm leading-none font-branded font-bold pt-2.5 px-2.5 block" href="https://test.elektramat.dev/donne-draad-vd-draad-2-5-mm-blauw-rol-100-meter/"&gt;Donné Draad VD draad 2.5mm2 blauw Eca per rol 100 meter&lt;/div&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
@@ -8385,7 +8304,7 @@ color-contrast violations</button></h2>
 </thead>
 <tbody>
 <td><p><strong>The violation can be found with the following CSS-selector:</strong></p>
-                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="872"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[max="9999"][min="1"][maxlength="12"]</code></pre>
+                    <pre><code class="lang-css text-wrap">div[data-gtm-vis-first-on-screen13047060_116="761"] &gt; .right-2.product_addtocart_form.bottom-2 &gt; .\[\&_\.btn-plus\]\:rounded-r-none.gap-1.flex &gt; .qty-input-wrapper.flex &gt; input[max="9999"][min="1"][maxlength="12"]</code></pre>
                     <p><strong>The violation looks like this in the source code:</strong></p>
                     <pre><code class="lang-html text-wrap">&lt;input type="number" name="qty" maxlength="12" value="1" min="1" max="9999" title="Aantal" x-data="qtyInput"&gt;</code></pre></td>
 <td><p><p>Fix any of the following:</p>
